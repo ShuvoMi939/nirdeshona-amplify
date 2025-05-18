@@ -1,0 +1,15 @@
+{
+  "resourceName": "userfiles192100",
+  "policyUUID": "a2427a52",
+  "bucketName": "nirdeshonaamplifye81cc177391846ef8f068de1eb5dce",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {}
+}

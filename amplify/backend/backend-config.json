@@ -1,6 +1,24 @@
 {
+  "api": {
+    "nirdeshonaamplify": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "auth": {
-    "nirdeshonaamplifyd2db3639": {
+    "nirdeshonaamplify74f7f7c2": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -25,6 +43,13 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "storage": {
+    "userfiles192100": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
     }
   }
 }
